@@ -1,4 +1,5 @@
 name: qemu-virgil
+base: core18
 adopt-info: qemu
 summary: QEMU as a snap, built from latest git with some fancy graphics extras
 description: |
@@ -183,9 +184,9 @@ parts:
       - libatk-bridge2.0-0
       - libatspi2.0-0
       - libbluetooth3
-      - libboost-iostreams1.58.0
-      - libboost-random1.58.0
-      - libboost-thread1.58.0
+      - libboost-iostreams1.62.0
+      - libboost-random1.62.0
+      - libboost-thread1.62.0
       - libbrlapi0.6
       - libcairo2
       - libcairo-gobject2
@@ -202,11 +203,11 @@ parts:
       - libheimbase1-heimdal
       - libheimntlm0-heimdal
       - libhx509-5-heimdal
-      - libiscsi2
+      - libiscsi7
       - libjpeg-turbo8
       - libkrb5-26-heimdal
       - libldap-2.4-2
-      - libnfs8
+      - libnfs11
       - libnspr4
       - libnss3
       - libnuma1
@@ -238,7 +239,7 @@ parts:
       - libxcb-shm0
       - libxcomposite1
       - libxcursor1
-      - libxen-4.6
+      - libxen-4.9
       - libxenstore3.0
       - libxi6
       - libxinerama1
